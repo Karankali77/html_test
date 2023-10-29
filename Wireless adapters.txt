@@ -1,0 +1,37 @@
+Panda PAU 06 wifi adapter (expensive)
+------------------------------------------------------------------
+leoxsys hg150n usb adapter 
+July 2019 (700 rs) 
+direct connect and use 
+Ralink rt5370 Best for kali pentest usb 0.2 
+only 2.4 ghz 
+monitor and packet injection. 
+heating issue and plastic not nice
+------------------------------------------------------------------
+Atheros ar9271 Chipset [2.4ghz]
+1) alfa awuso36nha
+realtek ar8812au [2.4 & 5ghz]
+2) alfa awus036ach
+------------------------------------------------------------------
+tplink ac600 archer ttu plus 5ghz & 2ghz (1299 rs) driver required rtl8821au chipset 
+
+driver steps:
+sudo apt install realtek-rtl188xxau-dkms
+then reboot.
+------------------------------------------------------------------
+test packet injection
+
+sudo aireplay-ng --test [interface name] 
+------------------------------------------------------------------
+5ghz check
+
+sudo airodump-ng --band a [interface name]
+---------------------------------------------------------------
+2.4ghz check
+
+sudo airodump-ng --band bg [interface name]
+---------------------------------------------------------------
+Soft Ap test [access point fake]
+
+sudo airbase-ng -a [00:00:00:00:00:00](fake mac address) --essid "Name" -c [channel] [interface name]
+---------------------------------------------------------------
