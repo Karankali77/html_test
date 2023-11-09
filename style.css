@@ -1,9 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  background-color: #1f1f1f;
+/* .nav-container {
+  background-color: #0c0c0c;
   color: white;
+} */
+.nav {
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-evenly;
 }
+.out {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+}
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: solid 2px white;
+}
+.inner1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 251, 0);
+  align-self: flex-end;
+}
+/* div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+.box1 {
+  background-color: red;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.box2 {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background-color: pink;
+}
+.box3 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: -30px;
+  background-color: yellow;
+}
+.box4 {
+  position: sticky;
+  bottom: 60px;
+  top: -10px;
+  background-color: blue;
+} */
