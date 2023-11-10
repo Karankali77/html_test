@@ -1,60 +1,41 @@
-/* .nav-container {
-  background-color: #0c0c0c;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  height: 60px;
+  background-color: #0f1111;
   color: white;
-} */
-.nav {
-  background-color: #0c0c0c;
   display: flex;
-  justify-content: space-evenly;
 }
-.out {
+
+.nav-logo {
+  height: 50;
+  width: 100px;
+}
+.logo {
+  background-image: url(nav-sprite-global-1x-reorg-privacy._CB587940754_.png);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 50px;
+  width: 100px;
+}
+.nav-border {
+  border: 0px solid transparent;
+}
+.nav-border:hover {
+  border: 1.5px solid white;
+}
+.address > p {
+  font-size: 0.8rem;
+  color: #cccccc;
+}
+.address.nxtline > p {
+  font-size: 1rem;
+}
+.address > .nxtline {
   display: flex;
-  height: 400px;
-  width: 400px;
-  justify-content: center;
-  background-color: black;
-  align-items: center;
 }
-.inner {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  border: solid 2px white;
-}
-.inner1 {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(255, 251, 0);
-  align-self: flex-end;
-}
-/* div {
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
-  display: inline-block;
-}
-.box1 {
-  background-color: red;
-  position: relative;
-  top: 30px;
-  left: 30px;
-}
-.box2 {
-  position: absolute;
-  top: 60px;
-  right: 60px;
-  background-color: pink;
-}
-.box3 {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: -30px;
-  background-color: yellow;
-}
-.box4 {
-  position: sticky;
-  bottom: 60px;
-  top: -10px;
-  background-color: blue;
-} */
